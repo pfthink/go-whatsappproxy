@@ -2,11 +2,10 @@ package validations
 
 import (
 	"fmt"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/config"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/structs"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/utils"
-	"github.com/dustin/go-humanize"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
+	"github.com/pfthink/go-whatsappproxy/config"
+	"github.com/pfthink/go-whatsappproxy/structs"
+	"github.com/pfthink/go-whatsappproxy/utils"
 )
 
 func ValidateSendMessage(request structs.SendMessageRequest) {

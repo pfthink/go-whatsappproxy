@@ -3,11 +3,10 @@ package services
 import (
 	"errors"
 	"fmt"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/structs"
-	"github.com/aldinokemal/go-whatsapp-web-multidevice/utils"
-	"github.com/gofiber/fiber/v2"
-	"go.mau.fi/whatsmeow"
-	"go.mau.fi/whatsmeow/types"
+	"github.com/pfthink/go-whatsappproxy/structs"
+	"github.com/pfthink/go-whatsappproxy/utils"
+	"github.com/pfthink/whatsmeow"
+	"github.com/pfthink/whatsmeow/types"
 )
 
 type UserServiceImpl struct {
